@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CCViewController : UIViewController
-
+@interface CCViewController : UIViewController {
+    
+    IBOutlet UILabel *costLabel;
+    
+    IBOutlet UILabel *perPerson;
+}
 @end

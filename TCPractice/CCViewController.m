@@ -16,8 +16,16 @@
 
 - (void)viewDidLoad
 {
+    
+    [self recalc];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+//In the guide.
+//Recalc Function Goes Here
+-(void)recalc {
+    
 }
 
 - (void)didReceiveMemoryWarning
