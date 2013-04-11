@@ -13,5 +13,10 @@
     IBOutlet UILabel *costLabel;
     
     IBOutlet UILabel *perPerson;
+    IBOutlet UITextField *SharePerson;
+    IBOutlet UITextField *tipPercent;
+    IBOutlet UITextField *costofMeal;
+
+    IBOutlet UIBarButtonItem *doneButton;
 }
 @end
